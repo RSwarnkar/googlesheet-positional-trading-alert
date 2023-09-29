@@ -1,0 +1,16 @@
+Create 2 Triggers: 
+
+1. Trigger - 1: 
+Choose which function to run: resetEmailFieldEveryDay()
+Which runs at deployment: Head
+Select event source: Time-driven
+Select type of time based trigger: Day timer
+Select time of day: Midnight to 1 am 
+
+
+2. Trigger - 2: 
+Choose which function to run: sendAnEmail()
+Which runs at deployment: Head
+Select event source: Time-driven
+Select type of time based trigger: Minutes timer
+Select time of day: Every 15 minutes
